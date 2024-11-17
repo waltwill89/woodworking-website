@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* General Reset */\
+body, h1, h2, h3, p, form, fieldset, legend, label, input, select, textarea, button \{\
+  margin: 0;\
+  padding: 0;\
+  box-sizing: border-box;\
+\}\
+\
+/* Body Styling */\
+body \{\
+  font-family: 'Arial', sans-serif;\
+  color: #4A4A4A; /* Warm gray */\
+  background-color: #F5F5DC; /* Beige */\
+  line-height: 1.6;\
+\}\
+\
+/* Container Styling */\
+.container \{\
+  width: 80%;\
+  margin: auto;\
+  overflow: hidden;\
+\}\
+\
+/* Header Styling */\
+header \{\
+  background: #8B4513; /* SaddleBrown */\
+  color: #F5F5DC; /* Beige */\
+  padding: 20px 0;\
+  text-align: center;\
+\}\
+\
+header h1 \{\
+  margin: 0;\
+\}\
+\
+/* Main Form Styling */\
+main \{\
+  margin: 20px 0;\
+\}\
+\
+form \{\
+  background: #FAF3E0; /* Light tan */\
+  padding: 20px;\
+  border-radius: 5px;\
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\
+\}\
+\
+/* Fieldset Styling */\
+fieldset \{\
+  margin-bottom: 20px;\
+  border: none;\
+\}\
+\
+legend \{\
+  font-size: 1.2em;\
+  margin-bottom: 10px;\
+  color: #2E8B57; /* SeaGreen */\
+\}\
+\
+/* Label Styling */\
+label \{\
+  display: block;\
+  margin-bottom: 5px;\
+  font-weight: bold;\
+  color: #4A4A4A; /* Warm gray */\
+\}\
+\
+/* Input, Select, and Textarea Styling */\
+input, select, textarea, button \{\
+  width: 100%;\
+  padding: 10px;\
+  margin-bottom: 10px;\
+  border: 1px solid #D2B48C; /* Tan */\
+  border-radius: 5px;\
+  background-color: #FFF; /* White */\
+\}\
+\
+/* Button Styling */\
+button \{\
+  background: #6B8E23; /* OliveDrab */\
+  color: #FFF; /* White */\
+  cursor: pointer;\
+  border: none;\
+\}\
+\
+button:hover \{\
+  background: #556B2F; /* DarkOliveGreen */\
+\}\
+\
+/* Footer Styling */\
+footer \{\
+  text-align: center;\
+  padding: 10px 0;\
+  background: #8B4513; /* SaddleBrown */\
+  color: #F5F5DC; /* Beige */\
+\}\
+\
+/* Additional Aesthetic Features */\
+textarea:focus, input:focus, select:focus, button:focus \{\
+  outline: 2px solid #6B8E23; /* OliveDrab */\
+\}\
+\
+a \{\
+  color: #8B4513; /* SaddleBrown */\
+  text-decoration: none;\
+\}\
+\
+a:hover \{\
+  color: #6B8E23; /* OliveDrab */\
+  text-decoration: underline;\
+\}\
+}
